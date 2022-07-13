@@ -11,6 +11,26 @@ body{
     background: #007bff;
 }
 
+/* @media (min-width: 768px) {
+    .result_box,
+    .quiz_box,
+    .info_box{
+        display: flex;
+        position: relative;
+        width: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .result_box,
+    .quiz_box,
+    .info_box{
+        width: auto;
+        align-self: center;
+    }
+} */
+
 ::selection{
     color: #fff;
     background: #007bff;
@@ -50,7 +70,8 @@ body{
 }
 
 .info_box{
-    width: 540px;
+    /* width: 540px; */
+    width: auto;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -108,7 +129,8 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    /* width: 550px; */
+    width: auto;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -311,7 +333,8 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+    /* width: 450px; */
+    width: auto;
     align-items: center;
     flex-direction: column;
     justify-content: center;
